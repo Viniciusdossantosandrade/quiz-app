@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React, {useState } from 'react'
 import './Quiz.css'
 import { data } from '../../assets/Components/data';
 
 const Quiz = () => {
 
     let [index, setIndex] = useState(2);
-    let [quastion, setQuestion] = useState(data[index]);
+    let [question, setQuestion] = useState(data[index]);
     let [lock, setLock] = useState(false);
     let [score,setScore] = useState(0);
     let [result,setResult] = useState(false);
@@ -47,8 +47,8 @@ const Quiz = () => {
             setQuestion(data[index]);
             setLock(false);
             option_array.map((option)=>{
-                option.current.classList.romeve("wrong");
-                option.current.classList.romeve("correct");
+                option.current.classList.remove("wrong");
+                option.current.classList.remove("correct");
                 return null;
 
             })
