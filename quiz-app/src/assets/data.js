@@ -1,0 +1,42 @@
+export const data = [
+    {
+      question: "Qual maior pais do mundo ?",
+      option1: "Russia",
+      option2: "Australia",
+      option3: "Canada",
+      option4: "Grecia",
+      ans: 1,
+    },
+    {
+      question: "Quantos ossos tem o corpo humano?",
+      option1: "199",
+      option2: "201",
+      option3: "208",
+      option4: "206",
+      ans: 4,
+    },
+    {
+      question: "Em qual continente fica frança?",
+      option1: "Europa",
+      option2: "America",
+      option3: "Ocenia",
+      option4: "Africa",
+      ans: 1,
+    },
+    {
+      question: "Quem é o mais seguido do instgram?",
+      option1: "Cr7",
+      option2: "Beyonce",
+      option3: "Instagram",
+      option4: "Messi",
+      ans: 3,
+    },
+    {
+      question: "Qual nao é um carro?",
+      option1: "Lexus",
+      option2: "Jacob",
+      option3: "Defender",
+      option4: "Tiggo",
+      ans: 2,
+    },
+  ];
